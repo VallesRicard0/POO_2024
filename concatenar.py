@@ -1,6 +1,6 @@
 #Concatenar cadenas de caracteres con contenido de variables
 
-nombre="Gustavo Franco"
+nombre="Valles"
 especialidad="Area de Desarrollo de SW Multiplataforma"
 carrera="Ingeniero en Gestión y Desarrollo de SW"
 
