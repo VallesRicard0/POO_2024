@@ -1,14 +1,11 @@
-# Pedimos al usuario que introduzca los dos números
-numero1 = int(input("Introduce el primer número: "))
-numero2 = int(input("Introduce el segundo número: "))
+#Hacer un programa que resuelva lo siguiente. ¿Cuanto es el X por ciento de X numero?
 
-# Aseguramos que numero1 es menor que numero2, si no, los intercambiamos
-if numero1 > numero2:
-    numero1, numero2 = numero2, numero1
+# Pedimos al usuario que introduzca el porcentaje y el número
+porcentaje = float(input("Introduce el porcentaje (por ejemplo, 20 para 20%): "))
+numero = float(input("Introduce el número: "))
 
-# Usamos un bucle for para iterar entre los dos números
-print(f"Números impares entre {numero1} y {numero2}:")
+# Calculamos el porcentaje del número
+resultado = (porcentaje / 100) * numero
 
-for numero in range(numero1, numero2 + 1):
-    if numero % 2 != 0:
-        print(numero)
+# Mostramos el resultado
+print(f"{porcentaje}% de {numero} es {resultado}")
