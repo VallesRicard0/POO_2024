@@ -86,7 +86,7 @@ for i in agenda:
 
 
 
-#Crea un programa que permita gestionar (actualizar) peliculas, colocar un menu de opciones para agregar , remover y consultar peliculas
+#Crea un programa que permita gestionar (actualizar) peliculas, colocar un menu de opciones para agregar , remover y consultar peliculas ademas de vaciar las peliculas
 #Notas
 #1 utilizar funciones y mandarlas a llamar desde otra carpeta
 #2 utilizar listas para almacenar los nombres de las peliculas
